@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.wrap {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+  padding: 10%; }
+
+input[type='text'] {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  background-color: transparent; }
+
+.date-wrap {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  float: left; }
+
+.arrow {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  padding: 1%; }
+
+.date {
+  display: flex;
+  align-items: center;
+  width: auto; }
+
+.datepicker {
+  display: inline-block;
+  width: auto;
+  background-color: white;
+  padding: 10px; }
+
+.date-wrap.calendar {
+  padding-right: 40px; }
+  .date-wrap.calendar:after {
+    content: url("calendar-interface-symbol-tool.svg");
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+/*# sourceMappingURL=style.css.map */
